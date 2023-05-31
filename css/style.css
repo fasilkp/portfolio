@@ -8996,8 +8996,8 @@ h1, h2, h3, h4, h5,
     .project .text span {
       color: rgba(255, 255, 255, 0.8);
       text-transform: uppercase;
-      letter-spacing: 2px;
-      font-size: 12px;
+      letter-spacing: 1px;
+      font-size: 8px;
       font-weight: 600; }
     @media (max-width: 767.98px) {
       .project .text {
@@ -9683,9 +9683,29 @@ textarea.form-control {
     stroke-dasharray: 89, 200;
     stroke-dashoffset: -136px; } }
 
-    @media (max-width:600px){
-      .text a,.text span{
+    /* @media (max-width:600px){ */
+      .project .text{
+        opacity: 100%;
+        transition: .3s;
+      }
+      .text a{
         color: black !important;
         font-weight: bold;
+        background-color: white;
+        opacity: 100%;
+        display: block;
       }
+      .text p{
+        display: none;
+      }
+    /* } */
+
+    .project .text p{
+      font-size: 12px;
+      line-height: 15px !important;
+      color: white;
+    }
+    .project:hover .text p {
+      color: black !important;
+      display: block;
     }
