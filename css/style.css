@@ -13965,7 +13965,7 @@ textarea.form-control {
 }
 
 
-.owl-carousel.home-slider .slider-item .slider-text .one-forth .text {
+.owl-carousel.home-body .slider-item .slider-text .one-forth .text {
   position: static !important;
   display: flex;
   height: 100%;
@@ -13978,21 +13978,21 @@ textarea.form-control {
   width: auto !important;
 }
 
-.owl-carousel.home-slider .slider-item .slider-text {
+.owl-carousel.home-body .slider-item .slider-text {
   display: flex;
   justify-content: center;
   align-items: center;
   width: 100%;
 }
 
-.owl-carousel.home-slider .slider-item .slider-text .one-forth {
+.owl-carousel.home-body .slider-item .slider-text .one-forth {
   position: static;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.owl-carousel.home-slider .slider-item .slider-text h1 {
+.owl-carousel.home-body .slider-item .slider-text h1 {
   font-size: 5rem;
 }
 
@@ -14052,7 +14052,7 @@ body {
   position: relative;
 }
 
-.owl-carousel.home-slider .slider-item .slider-text h2 {
+.owl-carousel.home-body .slider-item .slider-text h2 {
   font-size: 1.5rem;
 }
 
@@ -14117,7 +14117,7 @@ body {
   height: 95vh;
 }
 
-.owl-carousel.home-slider .slider-item .slider-text .subheading {
+.owl-carousel.home-body .slider-item .slider-text .subheading {
   font-size: 1.5rem;
 }
 
@@ -14133,7 +14133,7 @@ body {
 }
 
 @media(max-width: 650px) {
-  .owl-carousel.home-slider .slider-item .slider-text h1 {
+  .owl-carousel.home-body .slider-item .slider-text h1 {
     font-size: 4rem;
   }
   
@@ -14145,11 +14145,11 @@ body {
     font-size: 2.5rem;
   }
   
-  .owl-carousel.home-slider .slider-item .slider-text h2 {
+  .owl-carousel.home-body .slider-item .slider-text h2 {
     font-size: 1.3rem;
   }
   
-  .owl-carousel.home-slider .slider-item .slider-text .subheading {
+  .owl-carousel.home-body .slider-item .slider-text .subheading {
     font-size: 1.3rem;
   }
   
@@ -14221,4 +14221,12 @@ body {
 .project.img{
   box-shadow: inset 0px -113px 116px -18px rgba(0,0,0,1);
   padding-bottom: 5px;
+}
+
+.home-body{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
